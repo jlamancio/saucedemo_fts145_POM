@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "test:bdd": "npx playwright test"
+    "test:bdd": "cucumber-js --require features/support/**/*.js"
   },
   "keywords": [],
   "author": "",

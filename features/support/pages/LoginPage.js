@@ -12,6 +12,10 @@ export default class LoginPage {
     async login(username, password) {
         await this.page.fill(this.username, username);
         await this.page.fill(this.password, password);
-        await this.page.click(this.loginButton));
+      
+    };
+
+      async acionar_botao_login() {
+        await this.page.click(this.loginButton);
     };
 };
