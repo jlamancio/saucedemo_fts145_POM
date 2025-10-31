@@ -1,14 +1,16 @@
-# language: pt
+Feature: Login site SauceDemo
 
-Funcionalidade: Login site SauceDemo
+  Scenario Outline: Login com sucesso
+    Given que estou na pagina de login
+    When preencho o <usuario> e a <senha>    
+    And acesso a opcao Login
+    Then vou para a pagina <ur>l e vejo o titulo: <titulo_secao>
 
-  Esquema do Cenario: Login com sucesso
-    Dado que estou na pagina de login
-    Quando preencho o <usario> e a <senha>
-    E acesso a opcao Login
-    Entao vou para a pagina <url> e vejo <tituloSecao> Produtos
-
-    Exemplos:
+    Examples:
       | usuario       | senha        | url       | titulo_secao |
       | standard_user | secret_sauce | inventory | Product      |
       | visual_user   | secret_sauce | inventory | Product      |
+
+
+
+
