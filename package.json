@@ -1,7 +1,7 @@
 {
   "name": "saucedemo_fts145_pom",
-  "version": "1.0.0",
-  "description": "Automação utilizando Cucumber, Playwright, Playwright",
+  "version": "1.1.0",
+  "description": "Automação utilizand Playwright, Cucumber, POM",
   "main": "index.js",
   "directories": {
     "doc": "docs"
@@ -10,7 +10,7 @@
     "test:bdd": "cucumber-js --require features/support/**/*.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jose Luis Amancio",
   "license": "ISC",
   "type": "module",
   "dependencies": {
