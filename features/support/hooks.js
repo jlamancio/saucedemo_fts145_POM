@@ -7,9 +7,9 @@ BeforeAll(async () => {
     browser = await chromium.launch();
     context = await browser.newContext();
     page = await context.newPage();
-    global.page = page;
+    page = page;
 });
 
 AfterAll(async () => {
-    await browser.close();
+    await browser.close()
 });

@@ -1,0 +1,139 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-site-saucedemo;login-com-sucesso",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "Login com sucesso",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que estou na pagina de login",
+            "match": {
+              "location": "file:\\C:\\Cursos\\projetos\\Iterasys\\saucedemo_fts145_POM\\features\\support\\steps\\login.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1361323899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "preencho o \"standard_user\" e a \"secret_sauce\"",
+            "match": {
+              "location": "file:\\C:\\Cursos\\projetos\\Iterasys\\saucedemo_fts145_POM\\features\\support\\steps\\login.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53417800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "acesso a opcao Login",
+            "match": {
+              "location": "file:\\C:\\Cursos\\projetos\\Iterasys\\saucedemo_fts145_POM\\features\\support\\steps\\login.steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63465200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "vou para a pagina: \"inventory\" e vejo o titulo: \"Products\"",
+            "match": {
+              "location": "file:\\C:\\Cursos\\projetos\\Iterasys\\saucedemo_fts145_POM\\features\\support\\steps\\login.steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 206909900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-site-saucedemo;login-com-sucesso",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "Login com sucesso",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que estou na pagina de login",
+            "match": {
+              "location": "file:\\C:\\Cursos\\projetos\\Iterasys\\saucedemo_fts145_POM\\features\\support\\steps\\login.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1759131000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "preencho o \"visual_user\" e a \"secret_sauce\"",
+            "match": {
+              "location": "file:\\C:\\Cursos\\projetos\\Iterasys\\saucedemo_fts145_POM\\features\\support\\steps\\login.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45431599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "acesso a opcao Login",
+            "match": {
+              "location": "file:\\C:\\Cursos\\projetos\\Iterasys\\saucedemo_fts145_POM\\features\\support\\steps\\login.steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55722899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "vou para a pagina: \"inventory\" e vejo o titulo: \"Products\"",
+            "match": {
+              "location": "file:\\C:\\Cursos\\projetos\\Iterasys\\saucedemo_fts145_POM\\features\\support\\steps\\login.steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 458729500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-site-saucedemo",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login site SauceDemo",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]

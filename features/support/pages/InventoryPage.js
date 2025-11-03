@@ -1,7 +1,7 @@
 export default class InventoryPage {
     constructor(page) {
         this.page = page;
-        this.title = '.title';
+        this.title = '[data-test="title"]'
     };
 
     async verificarPaginaInventario(tituloSecao) {

@@ -17,7 +17,7 @@ Given('que estou na pagina de login', async () => {
     await page.goto('https://www.saucedemo.com/');
 });
 
-When('preencho o usuario:{ string } e a senha: { string }', async () => {
+When('preencho o {string} e a {string}', async (usuario, senha) => {
     await loginPage.login(usuario, senha);
 });
 
@@ -25,6 +25,26 @@ When('acesso a opcao Login', async () => {
     await loginPage.acionarBotaoLogin();
 });
 
-Then('vou para a pagina { string } e vejo o titulo: { string }', async (url, titulo_secao) => {
-    await inventoryPage.verificarPaginaInventario(url, titulo_secao);
+Then('vou para a pagina: {string} e vejo o titulo: {string}', async (url, titulo_secao) => {
+    await inventoryPage.verificarPaginaInventario(titulo_secao);
+    await browser.close();
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
